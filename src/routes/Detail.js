@@ -19,5 +19,4 @@ function Detail() {
   }, []);
   return <div>{loading ? <h1>Loading...</h1> : <h1>{details.title}</h1>}</div>;
 }
-
 export default Detail;
